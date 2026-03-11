@@ -1,0 +1,4 @@
+- In modern MCUs, you must enable its peripheral clock using peripheral clock registers before using a peripheral.
+- Peripheral clocks of all peripherals will be disabled to save power
+- A peripheral won't respond to your configuration until you enable its peripheral clock
+- In STM32 MCUs, peripheral clocks are managed through RCC (reset and clock control) registers.
